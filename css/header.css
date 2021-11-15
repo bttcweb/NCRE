@@ -1,0 +1,191 @@
+/* 主要设置header中的样式 
+  1.顶部推荐
+  2.地区
+  3.顶部导航
+  3.LOGO
+  4.搜索框
+  5.推荐
+  6.购物车
+  7.主导航
+  8.广告
+  ... ...
+*/
+
+header {
+	background-color: #ffffff;
+	height: 260px;
+}
+
+/* 顶部推荐 */
+header .Top_push {
+	background-color: #ff6339;
+}
+
+header .Top_push .main {
+	position: relative;
+	height: 80px;
+}
+
+/* 顶部导航 */
+header .Top_navigation {
+	font-size: 75%;
+	height: 30px;
+	background-color: #e3e4e5;
+}
+
+header .Top_navigation .main a {
+	padding: 0 10px;
+	color: #919191;
+}
+
+/* 地区 */
+header .Top_navigation .main .region {
+	height: 22px;
+	display: flex;
+    float: left;
+	padding: 8px 20px 0 20px;
+}
+
+header .Top_navigation .main .region:hover {
+	background-color: #FFFFFF;
+}
+
+header .Top_navigation .main .region:hover .region_hide{
+	display: block;
+}
+
+/* 隐藏地区 */
+header .Top_navigation .main .region_hide {
+	display: none;
+	margin: 22px -21px;
+	background-color: #FFFFFF;
+	border-left: solid 1px #919191;
+	border-right: solid 1px #919191;
+	border-bottom;: solid 1px #919191;
+	position: absolute;
+	z-index:999;
+}
+
+header .Top_navigation .main .region_hide ul {
+	padding: 8px;
+	display: flex;
+	list-style-type: none;
+}
+
+header .Top_navigation .main .region_hide li {
+	text-align: center;
+	width: 40px;
+	padding: 2px 10px;
+}
+
+header .Top_navigation .main .region_hide li:hover {
+	color: #C81623;
+	background-color: #b6b6b6;
+}
+
+header .Top_navigation .main .navigation{
+	display: flex;
+	float: right;
+	padding: 5px;
+}
+
+/* 搜索区域 */
+header .Top_search .main {
+	background-color: #ffffff;
+	height: 150px;
+	display: flex;
+}
+
+header .Top_search .main input {
+	border: 2px #f10215 solid;
+	margin: 30px 0 0 100px;
+	width: 500px;
+	height: 32px;
+}
+
+header .Top_search .main .search img {
+	position: absolute;
+	width: 60px;
+	height: 36px;
+	margin: 30px -100px 0 -50px;
+}
+
+/* 推荐 */
+header .Top_search .main .recommend {
+	margin: 70px 0 0 -505px;
+	height: 100px;
+	font-size: 12px;
+}
+
+header .Top_search .main .recommend span {
+	color: #e1251b;
+}
+
+header .Top_search .main .recommend a {
+	padding: 0 3px;
+	color: #919191;
+}
+
+header .Top_search .main .recommend a:hover {
+	color: #c81623;
+}
+
+/* 购物车 */
+header .Top_search .main .Shopping_Cart {
+	width: 120px;
+	height: 30px;
+	font-size: 12px;
+	text-align: center;
+	border: solid 1px #d9d9d9;
+	padding: 4px 0 0 0;
+	margin: 30px 0 0 40px;
+}
+
+/* 购物车边框变红 */
+header .Top_search .main .Shopping_Cart:hover {
+	border: solid 1px red;
+}
+
+/* 购物车小图标 */
+header .Top_search .main .Shopping_Cart img {
+	margin: 2px 0 0 0;
+	width: 16px;
+}
+
+/* 购物车链接 */
+header .Top_search .main .Shopping_Cart a {
+	color: #FF0000;
+	width: 100%;
+	height: 100%;
+}
+
+/* 主导航 */
+header .Top_search .main nav .Navigation{
+	margin: 120px 0 0 -750px;
+}
+
+header .Top_search .main nav .Navigation a {
+	font-size: 15px;
+	color: #333333;
+	margin: 0 15px 0 0 ;
+}
+
+header .Top_search .main nav .Navigation a:hover {
+	color: #c81623;
+}
+
+header .Top_search .main nav .Navigation .red {
+	font-weight: 900;
+	color: #e1251b;
+}
+
+/* 广告 */
+header .Top_search .main .advertisement {
+	margin: 0 0 0 30px;
+	width: 200px;
+}
+
+/* 广告图片 */
+header .Top_search .main .advertisement img {
+	width: 100%;
+}
