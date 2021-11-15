@@ -39,6 +39,10 @@ article .core .main .roll_picture img {
 	height: 100%;
 }
 
+article .core .main .roll_picture div.cur {
+	background-color: #000000;
+}
+
 article .core .main .small_picture {
 	width: 16%;
 	height: 470px;
@@ -50,4 +54,21 @@ article .core .main .personal {
 	width: 16%;
 	height: 470px;
 	background-color: #FF0000;
+}
+
+#block {
+	display: flex;
+	margin: -20px 0 0  226.5px;
+}
+
+#block div {
+	width: 10px ;
+	height: 10px ;
+	background-color: #d3d3d3;
+	margin-right: 15px;
+	cursor: pointer;
+}
+
+#block div.cur { 
+	background-color: #ffffff;
 }
