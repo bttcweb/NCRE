@@ -29,5 +29,5 @@ function changeImg(k) {
 	cur = k ;
 	document.getElementById("roll").src = imgs[cur] ;
 	setBlock();
-	fID ;
+	fID = setInterval("roll()",3000) ;
 }
