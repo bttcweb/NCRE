@@ -1,0 +1,14 @@
+footer {
+	background-color: #f4f4f4;
+	height: 90px;
+}
+
+footer .main .copyright {
+	color: #303d5d;
+	padding: 30px;
+	font-size: 12px;
+}
+
+footer .main .copyright p {
+	padding-top: 5px;
+}
